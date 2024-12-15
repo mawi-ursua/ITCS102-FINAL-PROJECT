@@ -1,16 +1,18 @@
-number1 = eval(input("\n\n\t\t\bEnter A Number: "))
-number2 = eval(input("\t\t\bEnter Another Number: "))
+number1 = eval(input("enter a number --> "))
+number2 = eval(input("enter a number --> "))
 
-add = number1 + number2
-sub = number1 - number2
-mul = number1 * number2
-div = number1 / number2
-flr_div = number1 // number2
-exp = number1 ** number2
-mod = number1 % number2
+answer1 = number1 + number2 
+answer2 = number1 - number2 
+answer3 = number1 * number2 
+answer4 = number1 / number2 
+answer5 = number1 % number2 
+answer6 = number1 ** number2 
+answer7 = number1 // number2 
 
-print("\n\n\t\t\t\tThe sum of",number1,"and",number2,"in addition is",add,
-            "\n\t\t\t\tThe sum of",number1,"and",number2,"in subtraction is",sub,"\n\t\t\t\tThe sum of",number1,
-            "and",number2,"in multiplication is",mul,"\n\t\t\t\tThe sum of",number1,"and",number2,"in division is",div,
-            "\n\t\t\t\tThe sum of",number1,"and",number2,"in floor division is",flr_div,"\n\t\t\t\tThe sum of",number1,"and",number2,
-            "in exponentiation is",exp,"\n\t\t\t\tThe sum of",number1,"and",number2,"in modulus is",mod,"\n\n ")
+print("\nThe sum of", number1 , "and", number2 , "is" , answer1 ,)
+print("The difference of" , number1 , "and" , number2 , "is" , answer2 ,)
+print("The product of" , number1 , "and" , number2 , "is" , answer3 ,)
+print("The quotient of" , number1 , "and" , number2 , "is" , answer4 ,)
+print("The modulo of" , number1 , "and" , number2 , "is" , answer5 ,)
+print("The exponent of" , number1 , "and" , number2 , "is" , answer6 ,)
+print("The floordivision of" , number1 , "and" , number2 , "is" , answer7 ,)
